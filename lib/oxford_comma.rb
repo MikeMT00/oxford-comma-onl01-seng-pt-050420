@@ -1,6 +1,8 @@
-def oxford_comma(array)
-array.join
-end
+def oxford_comma(array)  
+
+  if array == 1 
+    return array.join #when called on a array, will convert it into a string.
+end #
 
 
 
