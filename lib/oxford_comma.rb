@@ -1,11 +1,11 @@
-def oxford_comma(array)
+def oxford_comma(array) #method itself
 
-  if array.length == 1 #
-    return array.join #when called on a array, will convert it into a string.
-  elsif array.length == 2
-    return array.join(" and ") #Spaces keep the words seperated
-  else
-    array[0..-2].join(", ") + ", and " + array[-1]
+  if array.length == 1 #If array length is equal to 1,
+    return array.join #return as a string unformatted
+  elsif array.length == 2 #else if array length is equal to 2
+    return array.join(" and ") #return as string, but with 'and' inbetween each variable
+  else #if all conditions above can't be met, then this will run
+    array[0..-2].join(", ") + ", and " + array[-1] #Adding the comma plus a final 'and' when you have 3 elements
   end
 
 end
