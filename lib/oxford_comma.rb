@@ -2,7 +2,8 @@ def oxford_comma(array)
 
   if array == 1
     return array.join #when called on a array, will convert it into a string.
-    
+  def
+     array.join << 'and'
 end #
 
 
