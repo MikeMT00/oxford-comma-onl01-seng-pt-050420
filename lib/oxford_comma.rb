@@ -4,7 +4,7 @@ def oxford_comma(array)
     return array.join #when called on a array, will convert it into a string.
   end
   if array.length == 2
-
+    return array.join
   end
 
 end #
